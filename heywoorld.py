@@ -1,25 +1,11 @@
-#main.py cirlce and rectangle area/circumference...
-import circle
-import rectangle
-import math 
+import pandas as pd
+from bs4 import BeautifulSoup
+from selenium import webdriver
 
-global pi
-pi = math.pi
+driver = webdriver.Chrome(executable_path='C:/Users/Shrey/Downloads/chromedriver_win32/Chromedriver')
+ 
 
-
-global options 
-print('Welcome to area and circumference finder... here are your options:')
-
-options = input('\n1) Area of a circle\n 2) Circumference of a circle\n 3) Area of a rectangle\n 4) Perimeter of a rectangle\n 5) QUIT')
-
-
-
-
-
-
-
-
-
+driver.get('https://oxylabs.io/blog')
 
 
 
